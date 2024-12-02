@@ -1,0 +1,5 @@
+project:
+  title: webbotparseR
+  type: default
+  render:
+    - methodshub.qmd

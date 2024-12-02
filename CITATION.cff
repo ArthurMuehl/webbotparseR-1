@@ -1,0 +1,112 @@
+# --------------------------------------------
+# CITATION file created with {cffr} R package
+# See also: https://docs.ropensci.org/cffr/
+# --------------------------------------------
+ 
+cff-version: 1.2.0
+message: 'To cite package "webbotparseR" in publications use:'
+type: software
+license: MIT
+title: 'webbotparseR: Parse html files containing search engine results'
+version: 0.1.0.9000
+abstract: Parse search engine results which have been scraped with the 'WebBot' browser
+  extension <https://github.com/gesiscss/WebBot>.
+authors:
+- family-names: Schoch
+  given-names: David
+  email: david@schochastics.net
+  orcid: https://orcid.org/0000-0003-2952-4812
+- family-names: Chan
+  given-names: Chung-hong
+  email: chainsawtiney@gmail.com
+  orcid: https://orcid.org/0000-0002-6232-7530
+repository-code: https://github.com/gesistsa/webbotparseR
+url: https://gesistsa.github.io/webbotparseR/
+contact:
+- family-names: Schoch
+  given-names: David
+  email: david@schochastics.net
+  orcid: https://orcid.org/0000-0003-2952-4812
+keywords:
+- browser-extension
+- rstats
+- rstats-package
+- search-engine
+references:
+- type: software
+  title: rvest
+  abstract: 'rvest: Easily Harvest (Scrape) Web Pages'
+  notes: Imports
+  url: https://rvest.tidyverse.org/
+  repository: https://CRAN.R-project.org/package=rvest
+  authors:
+  - family-names: Wickham
+    given-names: Hadley
+    email: hadley@posit.co
+  year: '2024'
+  doi: 10.32614/CRAN.package.rvest
+- type: software
+  title: tibble
+  abstract: 'tibble: Simple Data Frames'
+  notes: Imports
+  url: https://tibble.tidyverse.org/
+  repository: https://CRAN.R-project.org/package=tibble
+  authors:
+  - family-names: Müller
+    given-names: Kirill
+    email: kirill@cynkra.com
+    orcid: https://orcid.org/0000-0002-1416-3412
+  - family-names: Wickham
+    given-names: Hadley
+    email: hadley@rstudio.com
+  year: '2024'
+  doi: 10.32614/CRAN.package.tibble
+- type: software
+  title: fastmap
+  abstract: 'fastmap: Fast Data Structures'
+  notes: Imports
+  url: https://r-lib.github.io/fastmap/
+  repository: https://CRAN.R-project.org/package=fastmap
+  authors:
+  - family-names: Chang
+    given-names: Winston
+    email: winston@posit.co
+  year: '2024'
+  doi: 10.32614/CRAN.package.fastmap
+- type: software
+  title: base64enc
+  abstract: 'base64enc: Tools for base64 encoding'
+  notes: Imports
+  url: http://www.rforge.net/base64enc
+  repository: https://CRAN.R-project.org/package=base64enc
+  authors:
+  - family-names: Urbanek
+    given-names: Simon
+    email: Simon.Urbanek@r-project.org
+  year: '2024'
+  doi: 10.32614/CRAN.package.base64enc
+- type: software
+  title: 'R: A Language and Environment for Statistical Computing'
+  notes: Depends
+  url: https://www.R-project.org/
+  authors:
+  - name: R Core Team
+  institution:
+    name: R Foundation for Statistical Computing
+    address: Vienna, Austria
+  year: '2024'
+  version: '>= 3.5'
+- type: software
+  title: testthat
+  abstract: 'testthat: Unit Testing for R'
+  notes: Suggests
+  url: https://testthat.r-lib.org
+  repository: https://CRAN.R-project.org/package=testthat
+  authors:
+  - family-names: Wickham
+    given-names: Hadley
+    email: hadley@posit.co
+  year: '2024'
+  doi: 10.32614/CRAN.package.testthat
+  version: '>= 3.0.0'
+
